@@ -1,0 +1,10 @@
+node_modules
+.DS_STORE
+yarn-error.log
+etc
+webpack.config.js
+.env
+*.zip
+serverdata
+src_Backup
+.next

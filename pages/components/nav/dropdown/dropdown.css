@@ -1,0 +1,26 @@
+.labelBox{padding:0px 5px; display:block; cursor: pointer;  position: relative;}
+.label{float:left; min-width: 90px;}
+.Arrowdown{margin-left:10px; float:left; -webkit-transform: rotate(0deg) .5s ease-in-out; -moz-transform:    rotate(0deg) .5s ease-in-out; -o-transform: rotate(0deg) .5s ease-in-out; -ms-transform: rotate(0deg) .5s ease-in-out; }
+.Arrow{margin-left:10px; float:left;}
+.Arrowup2{transform:rotate(180deg) 2s ease-in-out;-webkit-transform: rotate(180deg) 2s ease-in-out; -moz-transform:  rotate(180deg) 2s ease-in-out; -o-transform: rotate(180deg) 2s ease-in-out; -ms-transform: rotate(180deg) 2s ease-in-out;}
+.Arrowup{transform:rotate(180deg) 2s; -webkit-transform: rotate(180deg) 2s;}
+.listmask{min-width:160px; position: absolute; max-height: 200px; overflow-y:scroll; background-color: #fff; top:63px; right:0px; -moz-box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1); 
+    -webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,.1); 
+    box-shadow: 2px 2px 2px 2px rgba(228, 207, 207, 0.1);}
+.listhide{display:none;}
+.listmask ul{margin: 0px; padding: 0px;}
+.listmask ul li{margin:0px;padding:0px 20px; color:#000; list-style: none; height:50px; line-height: 50px; min-width:120px; font-size: 14px; background-color: #fff;}
+.listmask ul li:hover{margin:0px;padding:0px 20px; color:#000; list-style: none; height:50px; line-height: 50px; min-width:120px; font-size: 14px; background-color: #f2f2f2}
+.listmask::-webkit-scrollbar {
+    width: 10px;
+  }
+
+.listmask::-webkit-scrollbar-track {
+    background-color: #f2f2f2
+  }
+
+  .listmask::-webkit-scrollbar-thumb {
+    background: #2195f2; 
+    height:50px;
+    border-radius:2px;
+  }

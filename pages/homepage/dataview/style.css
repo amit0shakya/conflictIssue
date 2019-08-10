@@ -1,0 +1,6 @@
+.pageheading{float: left; width:800px;}
+.pageheading h2{margin:14px 0px 0px 0px; float: left; color:#2195f2; float:left; }
+.controlbox{ float:right}
+.controlbox span{width:39px; float:left; margin:0px 5px; display: block; cursor: pointer;}
+.datawrapper{float:left; margin-top:10px; min-height:200px; width:800px; border:1px solid #000; 
+    box-sizing: border-box;}
